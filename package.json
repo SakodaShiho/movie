@@ -1,6 +1,9 @@
 {
   "name": "pagepiling.js",
   "version": "1.5.6",
+  "engines": {
+  "node": "4.2.3"
+  },
   "description": "Create a scrolling pile of sections",
   "main": "jquery.pagepiling.js",
   "scripts": {
@@ -34,7 +37,5 @@
     "gulp-sourcemaps": "^1.12.1",
     "gulp-uglify": "^1.5.4"
   }
-  "engines": {
-    "node": "4.2.3"
-  }
+  
 }
