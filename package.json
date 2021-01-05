@@ -34,4 +34,7 @@
     "gulp-sourcemaps": "^1.12.1",
     "gulp-uglify": "^1.5.4"
   }
+  "engines": {
+    "node": "4.2.3"
+  }
 }
