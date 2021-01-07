@@ -124,15 +124,23 @@ p{
 }
 .intro img{
 	width: 250px;
-	padding: 20px;
+	padding: 30px 20px;
 }
-.twitter-share-button{
-	position: fixed !important;
-	z-index: 99;
-	right: 149px;
-	top: 9px;
+@media screen and (max-width: 559px) {
+	.intro img{
+		width: 120px;
+		padding: 30px 10px;
+	}
+	.intro h4{
+		width: 80%;
+	}
 }
-
+.sns{
+	padding: 100px 0px 0px 0px;
+}
+.sns img{
+	padding: 7px;
+}
 #download{
 	margin: 10px 0 0 0;
 	padding: 15px 10px;
